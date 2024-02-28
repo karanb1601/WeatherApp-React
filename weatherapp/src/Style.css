@@ -1,0 +1,96 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-johannes-plenio-1118873.jpg&fm=jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.weather{
+    width: 350px;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+    background: linear-gradient(125deg,rgba(41, 8, 159, 0.752),rgba(61, 121, 224, 0.325));
+}
+.row{
+    padding-top: 40px;
+}
+.search{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: none;
+    outline: 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: beige;
+    color: black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 7px;
+}
+.search button img{
+    margin-top: 2px;
+    width: 20px;
+}
+.search button{
+    border: none;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    cursor: pointer;
+    background-color: beige;
+}
+.cloud .climg{
+    margin-top: 20px;
+    width: 200px;
+}
+.cloud h1{
+    font-size: 50px;
+    font-weight: 250px;
+    margin-top: 5px
+}
+.cloud h2{
+    font-size: 35px;
+    font-weight: 300px;
+    margin-top: -40px;
+    /* color: black; */
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 40px;
+    /* margin-left:2px;
+    margin-right: 2px; */
+    margin-bottom: 10px;
+}
+.details .show{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.details .show img{
+    width: 45px;
+    margin-right: 10px;
+}
+.humidity, .Wind{
+      font-size: 20px;
+}
+.humidity p, .Wind p{
+    /* font-size: 20px; */
+    margin:0px;
+}
+.error{
+    color: #a92222;
+    text-align: left;
+    margin-right: 8px;
+}
